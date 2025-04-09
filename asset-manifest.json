@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/load-management-system/static/css/main.48ad8215.css",
+    "main.js": "/load-management-system/static/js/main.17b5d836.js",
+    "static/media/3.jpg": "/load-management-system/static/media/3.92f92f4a8b0369813808.jpg",
+    "static/media/1.jpg": "/load-management-system/static/media/1.26dfe9463364d4bd12d4.jpg",
+    "index.html": "/load-management-system/index.html",
+    "main.48ad8215.css.map": "/load-management-system/static/css/main.48ad8215.css.map",
+    "main.17b5d836.js.map": "/load-management-system/static/js/main.17b5d836.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48ad8215.css",
+    "static/js/main.17b5d836.js"
+  ]
+}
