@@ -1,0 +1,104 @@
+{
+  "admin": [
+    {
+      "id": "2f89",
+      "email": "charan@gmail.com",
+      "username": "charan",
+      "password": "12345",
+      "userType": "Admin"
+    },
+    {
+      "id": "c9a5",
+      "email": "Bramha@gmail.com",
+      "username": "bramha",
+      "password": "12345",
+      "userType": "Admin"
+    }
+  ],
+  "lorryowner": [
+    {
+      "id": "7a75",
+      "email": "charan@gmail.com",
+      "username": "charan",
+      "password": "12345",
+      "userType": "Lorry Owner"
+    },
+    {
+      "id": "391c",
+      "email": "praveen125@gmail.com",
+      "username": "Kumar",
+      "password": "12345",
+      "userType": "Lorry Owner"
+    },
+    {
+      "id": "da11",
+      "email": "praveen125@gmail.com",
+      "username": "Kumar",
+      "password": "12345",
+      "userType": "Lorry Owner"
+    },
+    {
+      "id": "6d18",
+      "email": "ramavathpraveen125@gmail.com",
+      "username": "praveen",
+      "password": "12345",
+      "userType": "Lorry Owner"
+    }
+  ],
+  "businessperson": [
+    {
+      "id": "a82b",
+      "email": "Shashank@gmail.com",
+      "username": "shashank",
+      "password": "12345",
+      "userType": "Business Person"
+    },
+    {
+      "id": "5772",
+      "email": "ramavathpraveen125@gmail.com",
+      "username": "praveen",
+      "password": "12345",
+      "userType": "Business Person"
+    },
+    {
+      "id": "cc5f",
+      "email": "Shashank@gmail.com",
+      "username": "shashank",
+      "password": "12345",
+      "userType": "Business Person"
+    }
+  ],
+  "activeLoads": [
+    {
+      "id": "9ffc",
+      "type": "Type 1",
+      "pickup": "Location 1",
+      "delivery": "Location 3",
+      "urgency": "Medium",
+      "postedBy": "Shashank@gmail.com",
+      "status": "Active",
+      "lorryOwnerEmail": "charan@gmail.com"
+    },
+    {
+      "id": "ad16",
+      "type": "Type 1",
+      "pickup": "Location 1",
+      "delivery": "Location 3",
+      "urgency": "Medium",
+      "postedBy": "Shashank@gmail.com",
+      "status": "Active",
+      "lorryOwnerEmail": "ramavathpraveen125@gmail.com"
+    },
+    {
+      "id": "21f6",
+      "type": "Type 1",
+      "pickup": "Location 1",
+      "delivery": "Location 2",
+      "urgency": "Medium",
+      "postedBy": "ramavathpraveen125@gmail.com",
+      "status": "Active",
+      "lorryOwnerEmail": "praveen125@gmail.com"
+    }
+  ],
+  "inActiveloads": []
+}

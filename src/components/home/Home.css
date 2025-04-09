@@ -1,0 +1,74 @@
+/* Home.css */
+
+.home-container {
+  background: linear-gradient(to bottom right, #fdfbfb, #ebedee);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 2.7rem;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.carousel-responsive {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.info-section {
+  background-color: #fff;
+  border-top: 2px solid #f5c518;
+  border-bottom: 2px solid #f5c518;
+  margin-top: 50px;
+}
+
+.info-section h3 {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+.info-section p {
+  color: #444;
+}
+
+.cta-box {
+  background: #0d6efd;
+  color: white;
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.cta-box:hover {
+  transform: scale(1.05);
+}
